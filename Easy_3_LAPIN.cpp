@@ -1,3 +1,11 @@
+// OBS!!!
+// this is not a very good solution.
+// A better solution would be to count the frequencies
+// of the letters instead of getting 2 substrings and sorting
+// and checking if they are equal
+// I think if I did by frequency then it would be O(n) instead
+// of O(nlog(n))
+
 #include <bits/stdc++.h>
 using namespace std;
 int main()
