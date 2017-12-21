@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int main()
 {
 	int t,g,i,n,q,current_coin,ans;
@@ -66,3 +65,35 @@ int main()
 		}
 	}
 }
+
+// Better solution:
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+// 	int tt,g,n,i,q,h,t;
+// 	cin>>tt;
+// 	while(tt--)
+// 	{
+// 		cin>>g;
+// 		while(g--)
+// 		{
+// 			cin>>i>>n>>q;
+// 			if(i==1)
+// 			{
+// 				h=n/2;
+// 				t=n-h;
+// 			}
+// 			else
+// 			{
+// 				t=n/2;
+// 				h=n-t;
+// 			}
+// 			if(q==1)
+// 			cout<<h<<endl;
+// 			else
+// 			cout<<t<<endl;
+// 		}
+// 	}
+// 	return 0;
+// } 
