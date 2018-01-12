@@ -7,10 +7,11 @@ int main()
 	cin>>t;
 	while(t--)
 	{
-		long long int sum, current_largest;
-		sum = 0;
 		cin>>n;
 		int a[n][n];
+		long long int sum = 0, current_largest = 99999999999;
+		int index_of_largest_possible = n-1;
+		bool is_possible = true;
 		for(int i=0; i<n; i++)
 		{
 			for(int j=0;j<n;j++)
@@ -21,9 +22,6 @@ int main()
 			sort(a[i], a[i]+n);
 		}
 
-		current_largest = 99999999999;
-		int index_of_largest_possible = n-1;
-		int is_possible = true;
 		for(int i = n - 1; i > -1; i--)
 		{
 			index_of_largest_possible = n-1;
