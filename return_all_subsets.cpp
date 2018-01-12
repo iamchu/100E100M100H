@@ -14,7 +14,4 @@ int main()
 		}
 		cout<<endl;
 	}
-
-
-
 }
